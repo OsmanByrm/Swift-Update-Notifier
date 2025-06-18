@@ -13,7 +13,7 @@ A simple iOS 18+ Swift app demonstrating how to implement automatic update notif
 
 ## 📋 Prerequisites
 
-- Xcode 15.0+
+- Xcode 16.0+
 - iOS 18.0+
 - Supabase account (free tier available)
 
@@ -28,9 +28,6 @@ A simple iOS 18+ Swift app demonstrating how to implement automatic update notif
 ```sql
 -- Swift Update Notifier - Supabase Setup
 -- Copy and paste this code into your Supabase SQL Editor
-
--- Önce tabloyu siliyoruz (eğer varsa)
-DROP TABLE IF EXISTS public.appversions;
 
 -- Create the appversions table
 CREATE TABLE public.appversions (

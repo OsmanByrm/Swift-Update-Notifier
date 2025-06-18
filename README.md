@@ -80,15 +80,9 @@ VALUES
 
 ### Step 2: iOS App Configuration
 
-1. Clone this repository:
-```bash
-git clone https://github.com/OsmanBayram/Swift-Update-Notifier.git
-cd Swift-Update-Notifier
-```
+1. Open `Swift-Update-Notifier.xcodeproj` in Xcode
 
-2. Open `Swift-Update-Notifier.xcodeproj` in Xcode
-
-3. Update your Supabase credentials in `ContentView.swift`:
+2. Update your Supabase credentials in `ContentView.swift`:
 
 ```swift
 // TODO: Replace with your Supabase project details
@@ -97,7 +91,7 @@ private let supabaseKey = "YOUR_SUPABASE_ANON_KEY"
 private let currentVersion = "1.0.0" // Your current app version
 ```
 
-4. Build and run the project
+3. Build and run the project
 
 ## 🏗 Architecture Overview
 
